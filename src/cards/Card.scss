@@ -1,0 +1,106 @@
+
+    .card {
+        width: 380px;
+        margin: 1%;
+        position: relative;
+        height: 300px;
+        background-image: linear-gradient(to right,rgb(105, 105, 165), lightgrey);
+        border:none;
+        border-radius: 20px;
+        position: relative;
+
+        .logo {
+            position: absolute;
+            top:30px;
+            right: 20%;
+            .card-image {
+                width: 80px;
+                height: auto;
+            }
+        }
+        .card-numbers {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            position: absolute;
+            top: 40%;
+            left: 20%;
+            .col {
+                flex: 22%;
+                margin: 4%;
+                font-size: 22px;
+            }
+        }
+        .card-name {
+            position: absolute;
+            top: 70%;
+            left: 30px;
+        }
+        .card-expire {
+            position: absolute;
+            top: 70%;
+            right: 30px;
+        }
+        h3 {
+            text-align: center;
+            margin: 0;
+        }
+        .forma {
+            width: 100%;
+            border:none;    
+            padding: 5px;
+            border-radius: 10px;
+            box-sizing: border-box;
+    
+            .form-group {
+                margin: 0;
+                padding: 5px;
+                box-sizing: border-box;
+                label {
+                    display:block;
+                    margin: 1px 0;
+                }
+                input[type="text"] {
+                    width: 100%;
+                    margin: 2px auto;
+                    padding: 10px;
+                    border-radius: 5px;
+                    box-sizing: border-box;
+                }
+                .username {
+                    width: 100%;
+                } 
+                .button {
+                    width: 60%;
+                    margin: 3px auto;
+                    padding: 10px 12px;
+                    color: white;
+                    background-color: blue;
+                    border-radius:10px;
+                    text-align: center;
+                    box-sizing: border-box;
+                    border:none;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                }
+            }
+            .form-row {
+                display: flex;
+                width:100%;
+                box-sizing: border-box;
+                justify-content:space-between;
+                .col {
+                    flex:1;
+                    margin-right: 3%;
+                    input {
+                        padding: 10px 5px
+                    }
+                }
+                .col:last-child {
+                    margin:0;
+                }
+            }
+        }
+    }
+
+    

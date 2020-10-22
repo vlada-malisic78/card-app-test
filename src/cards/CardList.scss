@@ -1,0 +1,22 @@
+    .container {
+        width: 70%;
+        margin: 20px auto;
+        box-sizing: border-box;
+        padding: 0;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: start;
+        .add-card {
+            width: 350px;
+            margin: 1%;
+            height: 220px;
+            font-size: 85px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background-image:linear-gradient(to right, lightblue, lightgrey) ;
+            color: black;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+}
